@@ -5,7 +5,7 @@ import {
   Transaction,
   PublicKey,
   LAMPORTS_PER_SOL,
-} from "./solana-web3.js/src";
+} from "./solana-web3/src";
 
 const init = () => {
   const account = Keypair.generate();
